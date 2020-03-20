@@ -5,7 +5,7 @@ from .models import Post
 
 def home(request):
     context = {
-        'posts': Post.objects.all()
+        'posts': Post.objects.filter(ratings__isnull=False).order_by('-ratings__average')
     }
     return render(request, 'blog/home.html', context)
 
