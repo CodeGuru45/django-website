@@ -6,15 +6,15 @@
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Sign Up</legend>
-                {{ form|crispy }}
+                {{ form|crispy }} 
             </fieldset>
             <div class="form-group">
                 <button class="btn btn-outline-info" type="submit">Sign Up</button>
             </div>
         </form>
-        <div class="border-top pt-3">
+        <div class="border-top pt-3">   
             <small class="text-muted">
-                Have an account? <a class="ml-2" href="#">Log In</a>
+                Have an account? <a class="ml-2" href="{% url 'login' %}">Log In</a>
             </small>
         </div>
     </div>
