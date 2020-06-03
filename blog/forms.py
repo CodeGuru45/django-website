@@ -4,7 +4,7 @@ from blog.models import Post
 class CreatePostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ('music_url',)
+        fields = ('music_link',)
         labels = {
-        "music_url": "Spotify Music Link"
+        "music_link": "Spotify Music Link"
         }

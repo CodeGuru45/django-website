@@ -12,7 +12,7 @@
               <a class="mr-2" href="{% url 'posts-user' post.author.username %}">{{ post.author }}</a>
             </div>
             <h6>{% ratings post %}</h6>
-            <iframe src= '{{ post.music_url }}' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src= '{{ post.music_link }}' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </article>
       </div>
