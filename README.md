@@ -5,3 +5,7 @@ A site written in Django which allows users to share and rate Spotify songs and 
 ## Motivation
 
 This site was developed as a means for providing a collective space where users can share and rate each others' Spotify music. Ideally this functionality would be present in the Spotify app itself, however it is not. One of the main goals for this project was also to gain a better understanding of Django fundamentals and the backend layer. 
+
+## Screenshot
+
+![](django_website_scrnsht.png)
