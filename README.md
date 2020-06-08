@@ -9,3 +9,8 @@ This site was developed as a means for providing a collective space where users 
 ## Screenshot
 
 ![](django_website_scrnsht.png)
+Link: https://spotifyshareapp.herokuapp.com/
+
+## Usage
+
+After cloning the repository run pip install -r requirements.txt to install all the project requirements. I recommend doing this in a virtual environment.  
