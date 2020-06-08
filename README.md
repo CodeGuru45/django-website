@@ -13,4 +13,4 @@ Link: https://spotifyshareapp.herokuapp.com/
 
 ## Usage
 
-After cloning the repository run pip install -r requirements.txt to install all the project requirements. I recommend doing this in a virtual environment.  
+After cloning the repository run pip install -r requirements.txt to install all the project requirements. I recommend doing this in a virtual environment. If running the site locally note that the username and password environemnt variables (in settings.py) must be set accordingly
